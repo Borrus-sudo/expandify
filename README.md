@@ -10,7 +10,7 @@ npm install expandify
 
 ## Usage
 
-First create a HTML file with things you want to be evaluate (index.html).
+First create a HTML file with things you want to be evaluated (index.html).
 
 ```html
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ First create a HTML file with things you want to be evaluate (index.html).
 </html>
 ```
 
-Then create a express application with the framework (index.js).
+Then create a express application with the tool (index.js).
 
 ```sh
 npm i express
