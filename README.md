@@ -66,3 +66,19 @@ res.send(
 );
 ```
 
+## Advanced Usage
+You can even evaluate complex lists by mapping and then joining variables:
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <ul>
+      {todos.map(todo => `<li>${todo}</li>`).join("")}
+    </ul>
+  </body>
+</html>
+```
+```js
+fv(__dirname + "/index.html", { todos: ["Do chores", "Do homework"] })
+```
+The possibilities are endless!
