@@ -1,16 +1,16 @@
 {
-  "name": "@bharadwajduggaraju/framework",
-  "version": "1.0.4",
-  "description": "🚀 Simple express.js 'framework' to evaluate expressions in HTML templates",
+  "name": "expandify",
+  "version": "1.0.5",
+  "description": "🚀 Simple express.js tool to evaluate expressions in HTML templates",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bharadwajduggaraju/framework.git"
+    "url": "git+https://github.com/bharadwajduggaraju/expandify.git"
   },
   "keywords": [
     "express",
-    "framework",
+    "expand",
     "better-eval"
   ],
   "author": "Bharadwaj Duggaraju",
@@ -20,7 +20,7 @@
     "express": "^4.17.2"
   },
   "bugs": {
-    "url": "https://github.com/bharadwajduggaraju/framework/issues"
+    "url": "https://github.com/bharadwajduggaraju/expandify/issues"
   },
-  "homepage": "https://github.com/bharadwajduggaraju/framework/#readme"
+  "homepage": "https://github.com/bharadwajduggaraju/expandify/#readme"
 }

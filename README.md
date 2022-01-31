@@ -1,11 +1,11 @@
 # framework
 
-🚀 Simple express.js 'framework' to evaluate expressions in HTML templates.
+🚀 Simple express.js tool to evaluate expressions in HTML templates.
 
 ## Installation
 
 ```sh
-npm install @bharadwajduggaraju/framework
+npm install expandify
 ```
 
 ## Usage
@@ -29,13 +29,13 @@ npm i express
 ```
 
 ```js
-const fv = require("@bharadwajduggaraju/framework");
+const expandify = require("expandify");
 const express = require("express");
 
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send(fv(__dirname + "/index.html"));
+  res.send(expandify(__dirname + "/index.html"));
 });
 
 app.listen(8080);
@@ -58,11 +58,11 @@ You can also evaluate variables from your express application.
 </html>
 ```
 
-Then, when you call ```fv()``` pass in the variables like this:
+Then, when you call ```expandify()``` pass in the variables like this:
 
 ```js
 res.send(
-  fv(__dirname + "/index.html", { name: "Bob", greeting: "How's life!" })
+  expandify(__dirname + "/index.html", { name: "Bob", greeting: "How's life!" })
 );
 ```
 
@@ -79,6 +79,6 @@ You can even evaluate complex lists by mapping and then joining variables:
 </html>
 ```
 ```js
-fv(__dirname + "/index.html", { todos: ["Do chores", "Do homework"] })
+expandify(__dirname + "/index.html", { todos: ["Do chores", "Do homework"] })
 ```
 The possibilities are endless!
