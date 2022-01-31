@@ -1,16 +1,26 @@
 {
-  "name": "framework",
+  "name": "@bharadwajduggaraju/framework",
   "version": "1.0.0",
-  "description": "",
+  "description": "🚀 Simple express.js 'framework' to evaluate expressions in HTML templates",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharadwajduggaraju/framework.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "framework",
+    "better-eval"
+  ],
+  "author": "Bharadwaj Duggaraju",
   "license": "ISC",
   "dependencies": {
     "better-eval": "^1.2.0",
     "express": "^4.17.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/bharadwajduggaraju/framework/issues"
+  },
+  "homepage": "https://github.com/bharadwajduggaraju/framework/#readme"
 }
