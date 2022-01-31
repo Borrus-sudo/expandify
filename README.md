@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
 app.listen(8080);
 ```
 
-Once you run the application, head to `localhost:8080`, and you will see all
+Once you run the application, head to `localhost:8080` and you will see all
 the expressions evaluated!
 
 ## Variables
@@ -58,7 +58,7 @@ You can also evaluate variables from your express application.
 </html>
 ```
 
-Then, when you call ```fv()```, pass in the variables like this:
+Then, when you call ```fv()``` pass in the variables like this:
 
 ```js
 res.send(
