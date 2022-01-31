@@ -1,6 +1,6 @@
 {
   "name": "@bharadwajduggaraju/framework",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🚀 Simple express.js 'framework' to evaluate expressions in HTML templates",
   "main": "index.js",
   "scripts": {},
