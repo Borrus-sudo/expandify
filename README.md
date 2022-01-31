@@ -1,4 +1,4 @@
-# framework
+# expandify
 
 🚀 Simple express.js tool to evaluate expressions in HTML templates.
 
